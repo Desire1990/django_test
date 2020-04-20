@@ -1,0 +1,20 @@
+<div style=" margin: 20px 0px 20px 20px">
+  <h1 class="display-2" style="background-color:#000000;color:#FFFF99;">Sign up Form</h1>
+  <form method="post" text-align: center>
+    {% csrf_token %}
+    {% for field in form %}
+      <p>
+        {{ field.label_tag }}<br>
+        {{ field }}
+        {% if field.help_text %}
+          <strong style="color: grey">{{ field.help_text }}</strong>
+        {% endif %}
+        {% for error in field.errors %}
+          <p style="color: red">{{ error }}</p>
+        {% endfor %}
+      </p>
+    {% endfor %}
+    <button type="submit">Sign up</button>
+  </form>
+</div>
+

@@ -1,0 +1,20 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$PFF036X66TBr$z93KdoRn+G0VPpoddoQ9ffh92+Q15CW5OFk5cq5DZXM=",
+    "last_login": "2020-04-16T12:51:21.975Z",
+    "is_superuser": true,
+    "username": "desire",
+    "first_name": "",
+    "last_name": "",
+    "email": "desnduwim26@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-04-16T12:50:53.457Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

@@ -1,0 +1,30 @@
+{% extends 'base.html'%}
+{% block content %}
+
+
+	
+<div >
+	<h2 id="Title">ATTESTATION D'IDENTITE COMPLETE  Numero {{ id.attestionId }}</h2>
+	<p id="para">
+		Je soussigne <strong>{{id.zone.chefZoneLeader}} </strong>Chef de Zone<strong> {{id.zone }}</strong>, atteste par la 
+		presente que l'identite complete de Monsieur <strong> {{ id.Person.Nom }} {{id.Person.Prenom}}</strong>, est le suivant: <br>
+	</p>
+	<p class="identite">
+		NOM				            : {{id.Person.Nom}} <br>
+		PRENOM					    : {{id.Person.Prenom}} <br>
+		NOM DU PERE				    : {{id.Person.NomPere }} <br>
+		NOM DE LA MERE 			    : {{id.Person.NomMere}} <br>
+		LIEU ET DATE DE NAISSANCE	: {{id.Person.colline}}, {{id.Person.anneeDeNaissance }} <br>
+		COMMUNE					    : {{id.Person.commune_natal}} <br>
+		PROVINCE 					: {{id.Person.province_natal}} <br>
+		NATIONALITE 		       	: {{id.Person.nationalite}} <br>
+		ETAT-CIVIL             	 	: {{id.Person.etatCivil}} <br>
+		PROFESSION                 	: {{id.Person.profession}} <br>
+		RESIDENCE ACTUELLE          : Zone {{ id.zone}},  Q. {{id.quarter}} <br>  
+	</p>
+	<p>
+		La présente attestation lui est délivrée au vu de sa Carte  Nationale d’Identité  portant  numéro {{id.Person.numberId}}  délivrée  à {{id.Person.commune_natal }},  {{id.Person.date_delivrated }}.
+	</p><br>
+</div>
+
+{% endblock %}

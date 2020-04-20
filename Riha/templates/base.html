@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Riha</title>
+	<style type="text/css">
+		hr{
+			color: red;
+		}
+		h2{
+			text-transform: uppercase;			
+		}
+		#Title{
+			text-transform: uppercase;
+			text-align: center;
+		}
+		.identite{
+		text-align: left;
+		text-decoration: none;
+		text-transform: uppercase;
+		}
+		.footer{
+			float: right;
+			margin: 5px;
+			text-transform: uppercase;
+			text-align: center;
+		/*}
+		.number{
+			text-align: center;
+			background-color: #22EE22;
+			text-transform: uppercase;
+			text-decoration: blink;
+		}*/
+</style>
+</head>
+<body>
+	<div>
+		<div class="id">
+			<h2>
+				REPUBLIQUE DU BURUNDI <br>
+				MINISTERE DE L'INTERIEUR <br>
+				ET DE LA FORMATION PATRIOTIQUE <br>
+				ET DE DEVELOPPEMENT LOCAL <br>
+				MUNICIPALITE DE {{id.province}} <br>
+				COMMUNE URBAINE DE {{id.commune}}<br>
+				ZONE DE {{id.zone}}
+			</h2>
+		</div><br><br><br>
+		<div>	
+			{% block content %} {% endblock %}
+		</div>
+		<div class="footer">
+			<h2>
+				Fait a Bujumbura ,<br> {{id.date}} <br>
+				LE CHEF DE ZONE {{id.zone}} <br>
+				{{id.zone.chefZoneLeader}}<br><br>
+			</h2>
+		</div>
+
+
+	
+</body>
+</html>
+
+

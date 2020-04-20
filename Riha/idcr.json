@@ -1,0 +1,106 @@
+[
+{
+  "model": "idcomplete.profile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "first_name": "Desire",
+    "last_name": "NDUWIMANA",
+    "email": "Desnduwim19@yahoo.com",
+    "signup_confirmation": true
+  }
+},
+{
+  "model": "idcomplete.person",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "avatar": "",
+    "Prenom": "Desire",
+    "Nom": "Nduwimana",
+    "NomPere": "Sabihutu",
+    "NomMere": "Sinzobatohana",
+    "colline": "Bibunge",
+    "commune_natal": "matongo",
+    "province_natal": "Kayanza",
+    "anneeDeNaissance": "16/09/1989",
+    "nationalite": "Burundaise",
+    "etatCivil": "CELIBATAIRE",
+    "profession": "Developpeur",
+    "numberId": "0806/68.736/2010",
+    "date_delivrated": "2010-09-15"
+  }
+},
+{
+  "model": "idcomplete.province",
+  "pk": 1,
+  "fields": {
+    "province": "Bubanza",
+    "govner": "Bucumi Deo"
+  }
+},
+{
+  "model": "idcomplete.province",
+  "pk": 2,
+  "fields": {
+    "province": "Bujumbura Mairie",
+    "govner": "Bucumi Deo"
+  }
+},
+{
+  "model": "idcomplete.province",
+  "pk": 3,
+  "fields": {
+    "province": "Bujumbura rural",
+    "govner": "Nduwimana Thaddee"
+  }
+},
+{
+  "model": "idcomplete.province",
+  "pk": 4,
+  "fields": {
+    "province": "Ruyigi",
+    "govner": "GAttoo charles"
+  }
+},
+{
+  "model": "idcomplete.province",
+  "pk": 5,
+  "fields": {
+    "province": "Bururi",
+    "govner": "Bucumi Deo"
+  }
+},
+{
+  "model": "idcomplete.province",
+  "pk": 6,
+  "fields": {
+    "province": "Cankuzo",
+    "govner": "Bucumi Deo"
+  }
+},
+{
+  "model": "idcomplete.province",
+  "pk": 7,
+  "fields": {
+    "province": "Cibitoke",
+    "govner": "GAttoo charles"
+  }
+},
+{
+  "model": "idcomplete.province",
+  "pk": 8,
+  "fields": {
+    "province": "GITEGA",
+    "govner": "GAttoo charles"
+  }
+},
+{
+  "model": "idcomplete.province",
+  "pk": 9,
+  "fields": {
+    "province": "Karuzi",
+    "govner": "GAttoo charles"
+  }
+}
+]
